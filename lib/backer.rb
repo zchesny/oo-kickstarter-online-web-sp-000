@@ -1,10 +1,10 @@
-class Backer 
+class Backer
 
   attr_accessor :backed_projects
-  attr_reader :projects 
-  
+  attr_reader :projects
+
   def initialize()
-    @backed_projects = [] 
+    @backed_projects = []
   end
 
 
